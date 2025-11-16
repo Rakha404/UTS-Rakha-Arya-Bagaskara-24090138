@@ -6,8 +6,8 @@ Nama: Rakha Arya Bagaskara
 NIM: 24090138
 
 - Link
-Repository GitHub: [ ]
-GitHub Pages: [ ]
+Repository GitHub: https://github.com/Rakha404/UTS-Rakha-Arya-Bagaskara-24090138.git
+GitHub Pages: https://rakha404.github.io/UTS-Rakha-Arya-Bagaskara-24090138/
 
 - Ringkasan Proyek
 Proyek ini dibuat untuk mensimulasikan proses login dan tampilan dashboard admin sederhana dengan beberapa fitur utama sebagai berikut:
