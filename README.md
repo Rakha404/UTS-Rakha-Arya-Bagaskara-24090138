@@ -1,15 +1,15 @@
 Proyek UTS Pemrograman Web – [UTS-Rakha Arya Bagaskara-24090138]
 Proyek ini merupakan tugas Ujian Tengah Semester untuk mata kuliah Pemrograman Web. Isi proyek mencakup pembuatan halaman Login, Dashboard, serta halaman pengelolaan data Produk.
 
-Data Mahasiswa
+- Data Mahasiswa
 Nama: Rakha Arya Bagaskara
 NIM: 24090138
 
-2. Link
+- Link
 Repository GitHub: [ ]
 GitHub Pages: [ ]
 
-3. Ringkasan Proyek
+- Ringkasan Proyek
 Proyek ini dibuat untuk mensimulasikan proses login dan tampilan dashboard admin sederhana dengan beberapa fitur utama sebagai berikut:
 
 1. Halaman Login (index.html)
