@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Pemrograman Web 1</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="login-page">
+    <div class="login-split-left">
+        <img src="img/login.png" alt="Login Illustration" class="login-illustration">
+    </div>
+    <div class="login-split-right">
+        <div class="login-container">
+            <h1>Selamat Datang!</h1>
+            <form id="loginForm">
+                <div class="input-group">
+                    <label for="email" class="sr-only">Email Address</label>
+                    <div class="input-with-icon">
+                        <span class="icon">@</span>
+                        <input type="email" id="email" name="email" placeholder="Email Address">
+                    </div>
+                </div>
+                <div class="input-group">
+                    <label for="password" class="sr-only">Password</label>
+                    <div class="input-with-icon">
+                        <span class="icon">🔒</span>
+                        <input type="password" id="password" name="password" placeholder="Password">
+                    </div>
+                    <a href="#" class="forgot-password">Forgot Password?</a>
+                </div>
+                <button type="submit" class="btn btn-primary">Login</button>
+            </form>
+
+            <p class="separator">Or</p>
+
+            <div class="social-login">
+                <button class="btn btn-google"><img src="img/google.png" alt="Google" width="40px">Google</button>
+                <button class="btn btn-facebook"><img src="img/Facebook.png" alt="facebook"
+                        width="30px">Facebook</button>
+            </div>
+
+            <p class="signup-link">Don't have an account? <a href="#">Sign Up</a></p>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
