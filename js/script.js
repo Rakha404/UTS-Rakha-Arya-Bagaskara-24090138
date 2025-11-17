@@ -12,6 +12,10 @@ let products = [
     { id: 3, name: "Coklat Aceh", price: 30000, stock: 20 },
 ];
 
+// --- KREDENSIAL LOGIN YANG BENAR ---
+const CORRECT_EMAIL = "dawgsyogs@gmail.com";
+const CORRECT_PASSWORD = "24090138"; 
+
 // --- FUNGSI UTAMA ---
 document.addEventListener('DOMContentLoaded', () => {
     // Logika Halaman Login (index.html)
@@ -30,7 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 });
 
-// --- FUNGSI LOGIN ---
+// --- FUNGSI LOGIN YANG TELAH DIUBAH ---
 function handleLogin() {
     const form = document.getElementById('loginForm');
     if (!form) return;
@@ -39,7 +43,7 @@ function handleLogin() {
         e.preventDefault();
 
         const email = document.getElementById('email').value.trim();
-        const password = document.getElementById('password').value.trim(); // Ini adalah NIM
+        const password = document.getElementById('password').value.trim(); 
 
         // 1. Validasi tidak boleh kosong
         if (email === "" || password === "") {
@@ -47,11 +51,16 @@ function handleLogin() {
             return;
         }
 
-        // 2. Simulasikan Login Berhasil
-        alert("Login berhasil!");
-
-        // 3. Redirect ke dashboard.html
-        window.location.href = "dashboard.html";
+        // 2. Validasi Kredensial Keras (Hardcoded Credentials)
+        if (email === CORRECT_EMAIL && password === CORRECT_PASSWORD) {
+            // Login Berhasil
+            alert("Login berhasil!");
+            // Redirect ke dashboard.html
+            window.location.href = "dashboard.html";
+        } else {
+            // Login Gagal
+            alert("Login gagal! Email atau Password (NIM) salah.");
+        }
     });
 }
 
