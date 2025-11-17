@@ -3,9 +3,9 @@ Proyek ini merupakan tugas Ujian Tengah Semester untuk mata kuliah Pemrograman W
 
 - Cara Login :
 
-- Email : dawgsyogs@gmail.com
+Email : dawgsyogs@gmail.com
 
-- password : 24090138
+password : 24090138
 
 
 - Data Mahasiswa
